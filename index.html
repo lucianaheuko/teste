@@ -1,14 +1,396 @@
-<html>
-
+<!doctype html>
+<html lang="pt-BR">
 <head>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta charset="UTF-8">
+	<title>Cauê e Carla</title>
+	<link rel="shortcut icon" href="img/favicon.ico" />
+
+<link href='http://fonts.googleapis.com/css?family=Signika:400,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/style.css">
+
+<script type="text/javascript" src="js/jquery-1.10.2.js"></script>
+<script type="text/javascript" src="js/action.js"></script>
+<script defer src="js/jquery.flexslider.js"></script>
+
 </head>
 
 <body>
+	<div class="allWidth shadowBottom" id="menuTop">
+		<nav class="navMain">
+			<a href="#inicio" class="navMainActive">início</a>
+			<a href="#historia">história</a>
+			<a href="#noivos">noivos</a>
+			<a href="#padrinhosMadrinhas">padrinhos e madrinhas</a>
+			<a href="#local">local da festa</a>
+			<a href="#listadepresentes">lista de presentes</a>
+			<a href="#rsvp" class="noMargin">confirmar presença</a>
+		</nav>
+	</div>
+	<div id="inicio" class="capaContent shadowBottom">
+		<img src="img/gif_cas.gif" class="imgCapa">
+		<div class="dateCounter"><span></span></div>
+	</div>
+	<div class="contentMain">
+		<div class="sectionContent">
+			<img src="img/caueecarla.png" class="logo_nomes">
+			<img src="img/digitais.png" class="digitais">
+			<div class="textContent">
+				<p>Juntamente com seus pais, convidam para seu casamento,<br />
+				a ser realizado no dia 6 de dezembro de 2014, às 16h30min</p>
+				<p><b>Isso vem do Senhor, e é algo maravilhoso para nós.<br />
+				Este é o dia que o Senhor agiu; alegremo-nos e exultemos nesse dia.
+				<br />
+				<span>Salmos 118:23-24</span></b></p>
+			</div>
+		</div>
 
+		<div id="historia" class="sectionContent">
+			<img src="img/digitais.png" class="digitais digitaisH">
+			<h1>a história</h1>
+			<p>(segundo o Cauê)<br /><br /></p>
+			<div class="textContent">
+				<p>Conheço a Cá desde 2004, estudamos na mesma escola e fomos melhores amigos.<br /><br />
+				Foram alguns anos juntos, outros sem nem se ver, até que por volta de 2008 voltamos a nos encontrar com a mesma frequência de antes. Temos jeitos bem diferentes,
+				mas sempre tivemos gostos muito parecidos,
+				sempre nos demos muito bem.
+				<br /><br />
+				Nos dávamos tão bem que começamos a namorar, mas não fomos muito adiante devido a imaturidade e falta de sabedoria e, o que é pior, achávamos que, em hipótese alguma, haveria algo novamente entre nós.
+				<br /><br />
+				Em 2012, respondendo ao meu amigo Pavão sobre o que eu desejava encontrar em uma mulher, o que seria uma mulher cheia de virtudes pra mim, praticamente descrevi a Cá. Eu mesmo fiquei extremamente surpreso, meu coração dizia que não era possível, mas a razão a descrevia: sensível, amável, sábia, companheira e, o que era mais importante, um coração cheio de temor e entrega. Com esse pacote ainda vêm a diversão, a doçura, a intensidade, o jeito carinhoso e a beleza.
+				<br /><br />
+				Então, não como quem estava completamente apaixonado, mas como alguém que reconhece a mulher com quem se quer casar, fui a ela com toda sinceridade e declarei que pensava muito nela.<br />Da mesma forma, ela agiu e permitimos nos encontrar por alguns meses pra conversar, compartilhar dos desejos do coração e da caminhada com Deus.
+				<br /><br />
+				Começamos, então, a namorar em julho daquele ano.
+				Pode até soar algo frio para quem vê de fora, mas nós sabemos que não poderia ser mais quente.
+				Antes de começarmos a namorar, a escolhi para casar.
+				<br /><br />
+				Como sou apaixonado por essa mulher.
+				Desejo ser apenas um com a minha pequena e caminhar com ela até quando Deus permitir.</p>
+			</div>
+		</div>
 
-	<h1 id="one">em construção</h1>
-	<script type="text/javascript" src="js/action.js"></script>
+		<div id="noivos" class="sectionContent">
+			<img src="img/digitais.png" class="digitais digitaisH">
+			<h1>os noivos</h1>
+			<p>(segundo a Carla)<br /><br /></p>
+			<div class="textContent">
+				<p>Ele era o melhor amigo do colégio,
+				<br />ela nem imaginava se apaixonar por ele</p>
+				<p>Ele tem a calma ao falar,<br />ela devora as palavras </p>
+				<p>Ele é racional e sereno,<br />ela é emocional e intensa </p>
+				<p>Ele tem a arte de ensinar,<br />ela adora estudar e aprender com ele</p>
+				<p>Ele é bom com os números,<br />ela é boa com as palavras </p>
+				<p>Ele a ensinou a pensar antes de gastar,<br />ela não aguentava uma liquidação</p>
+				<p>Ele curte o que ela chama de boa música,<br />ela ama ouvir e ir a shows com ele </p>
+				<p>Ele sempre está disponível para ajudar os amigos,<br />ela ama saber que sempre pode contar com ele </p>
+				<p>Ele tem dentro de si um homem que cuida,<br />ela adora se sentir protegida em seus braços </p>
+				<p>Ele acha que todo mundo pode e deve contar com os irmãos,<br />ela aprendeu com ele a ser humilde e pedir ajuda</p>
+				<p>Ele pode aguentar uma noite inteira acordado,<br />ela consegue entrar em sono profundo em 2min</p>
+				<p>Ele é cheio de amor e carinho,<br />ela ama se sentir mais completa com ele</p>
+				<p>Os dois escolheram ser somente um</p>		
+				</div>
+			<!-- galeria de fotos
+			<section class="slider">
+		        <div id="slider" class="flexslider">
+		          <ul class="slides">
+		            <li><img src="img/slider/slide1.jpg" /></li>
+		            <li><img src="img/slider/slide2.jpg" /></li>
+		            <li><img src="img/slider/slide3.jpg" /></li>
+		            <li><img src="img/slider/slide4.jpg" /></li>
+		            <li><img src="img/slider/slide5.jpg" /></li>
+		            <li><img src="img/slider/slide6.jpg" /></li>
+		            <li><img src="img/slider/slide7.jpg" /></li>
+		            <li><img src="img/slider/slide8.jpg" /></li>
+		            <li><img src="img/slider/slide9.jpg" /></li>
+		          </ul>
+		        </div>
+		        <div id="carousel" class="flexslider">
+		          <ul class="slides">
+		            <li><img src="img/slider/pb/slide1.jpg" /></li>
+		            <li><img src="img/slider/pb/slide2.jpg" /></li>
+		            <li><img src="img/slider/pb/slide3.jpg" /></li>
+		            <li><img src="img/slider/pb/slide4.jpg" /></li>
+		            <li><img src="img/slider/pb/slide5.jpg" /></li>
+		            <li><img src="img/slider/pb/slide6.jpg" /></li>
+		            <li><img src="img/slider/pb/slide7.jpg" /></li>
+		            <li><img src="img/slider/pb/slide8.jpg" /></li>
+		            <li><img src="img/slider/pb/slide9.jpg" /></li>
+		          </ul>
+		        </div>
+		    </section>
+		    -->
+
+		</div>
+
+		<div id="padrinhosMadrinhas" class="sectionContent">
+			<img src="img/digitais.png" class="digitais digitaisH">
+			<h1>padrinhos e madrinhas</h1>
+			<p></p>
+			<div class="textContent">
+				<div class="flexslider">
+				  <ul class="slides">
+				    <li>
+						<img src="img/pem/natilha.jpg" class="pem"/>
+						<p><span><b>Naty Neves</b></span></p>
+						<p>
+						A doçura de uma menina mulher que quando abre os lábios para falar tem a capacidade de ler por dentro, um dom que nela sobressai juntamente com a sua habilidade de ouvir como ninguém. Quantas vezes os seus ouvidos foram meus amigos e suas palavras me ajudaram a enxergar mais profundo, acolheu muitas vezes minhas lágrimas e ainda hoje me ajuda a sorrir construindo uma amizade que não precisa de explicação, por isso sua presença é fundamental nesse caminho ao altar!
+						</p>
+				    </li>
+				    <li>
+						<img src="img/pem/elisa.jpg" class="pem"/>
+						<p><span><b>Elisa</b></span></p>
+						<p>
+						Quem a vê falando meigo e cheia de coisas rosas não imagina a dureza que ela tem na queda e a opinião forte que pode expressar. Ela fecha comigo onde for e eu faço questão de fechar com ela também, ela insiste em me fazer falar quando eu quero mesmo é calar (ela não desiste de mim), sinto amor em cada olhar e enche o coração de gratidão de poder andar junto, por isso ela não poderia deixar de andar junto comigo até o altar.
+						</p>
+				    </li>
+				    <li>
+						<img src="img/pem/fidel.jpg" class="pem"/>
+						<p><span><b>Nati Fidel</b></span></p>
+						<p>
+						Ela não se deixa conhecer facilmente, ela não é só piada e criatividade, não é só uma mulher misturada com uma adolescente, não é só maromba da academia dos esportes, vai muito além de um stand up e open bar de risadas, ela é parceria, ela é cumplicidade, ela é leitura com olhar, ela é amor sem cobranças, transforma a dúvida da amizade eterna em certeza, ela vira família e, por isso, no dia que eu começo a minha ela deve estar presente olhando do altar.
+						</p>
+				    </li>
+				    <li>
+						<img src="img/pem/isa.jpg" class="pem"/>
+						<p><span><b>Isa</b></span></p>
+						<p>
+						Ela chegaria de mansinho, senão fosse pela sua risada marcante, pela alegria contagiante e pelas piadas em qualquer hora. Foi assim que ela entrou, nada de mansinho, quando vi já poderia abrir minha vida inteira para ela sem pestanejar, ela é dona de um abraço que eu amo estar e da compaixão e amor que eu preciso nas horas difíceis, por isso nessa hora do frio na barriga preciso dela no altar para me ajudar.
+						</p>
+				    </li>
+				    <li>
+						<img src="img/pem/vero.jpg" class="pem"/>
+						<p><span><b>Vero</b></span></p>
+						<p>
+						Ela dá curso de maquiagem e estilo, é totalmente sem limites na zueira, perde o amigo, mas não perde a piada? Que frase perfeita para ela! Mas, ainda mais perfeito é dizer que ela acolhe como ninguém e surpreende na seriedade e sabedoria.  Ela dá o seu testemunho de vida na minha vida e me impacta com seu cuidado e amizade. Não existe semana que eu não deseje encontrá-la e momentos que eu não perceba o quão maravilhoso é tê-la por perto e é de pertinho no altar que mais uma vez ela estará comigo.
+						</p>
+				    </li>
+				    <li>
+						<img src="img/pem/bonu.jpg" class="pem"/>
+						<p><span><b>Bonu</b></span></p>
+						<p>
+						Ela para mim é a Boo, não poderia ser de outro jeito. É princesa por dentro e por fora, aprendeu nos melhores castelos a amar e se doar como poucos fazem. Ela tem um coração maravilhoso guardado em cima da torre do seu castelo, felizes são aqueles que lá podem chegar, que bom que eu me sinto desses privilegiados. Privilegiada em saber que nesse coração eu sempre posso entrar sem pedir licença e ganhar um amor que aquieta, amor que tem que sair do castelo e me ajudar a escrever um pedacinho do meu conto de fadas no altar.
+						</p>
+				    </li>
+				    <li>
+						<img src="img/pem/repita.jpg" class="pem"/>
+						<p><span><b>André</b></span></p>
+						<p>
+						Dono de uma voz aveludada que deu origem ao seu apelido e detentor do recorde nacional de entrar no sono r.e.m. em apenas 12s. Irmão ponta firme, disponível e sem tempo ruim. Só tem voz e jeito de cara duro, mas tem um coração todo molenga. Caminhará comigo neste momento como sempre caminhou.
+						</p>
+				    </li>
+				    <li>
+						<img src="img/pem/pavao.jpg" class="pem"/>
+						<p><span><b>Pavão</b></span></p>
+						<p>
+						Motociclista por opção, adorador das maquinas movidas à combustão, barista e degustador de cevada fermentada, paladar um tanto quanto exigente, tranquilo e sereno, típico de uma pessoa do interior. Íntegro e justo. Sem rodeios vai direto ao ponto, seja perguntando ou respondendo.
+						Sabe tanto me ouvir que é impossível encontrá-lo e não compartilhar toda e qualquer coisa. No corredor ao altar estará comigo mais uma vez, e nos dias que seguirem não deixará de me ouvir e me questionar sobre minha decisão, direto ao ponto.
+
+						</p>
+				    </li>
+				    <li>
+						<img src="img/pem/vitor.jpg" class="pem"/>
+						<p><span><b>Vitor</b></span></p>
+						<p>
+						Jornalista midiático, músico de 4 acordes, lutador do submundo e jogador de várzea, nunca se sabe se o encontrará magro ou gordo. Irmão há 10 anos, extremamente parecidos nos gostos e escolhas de vida, tirando que meu time ganha e o dele não. Todo truculento, mas de coração extremamente humilde e generoso, sincero e guerreiro na fé. Andou tanto comigo que agora não poderia ser de outra forma, já estivemos no palco juntos, agora no altar estará presente testemunhando mais uma decisão.
+						</p>
+				    </li>
+				    <li>
+						<img src="img/pem/diposo.jpg" class="pem"/>
+						<p><span><b>Diposo</b></span></p>
+						<p>
+						Vivia como menino da floresta, depois quis ser boxeador, cowboy e policial, dificilmente é encontrado de camiseta, ficou metido, saiu da vila formosa e foi até morar em Portugal.
+						Disposição tamanha de ajudar e ser presente que nem cabe na agenda. Coração generoso e cheio de temor. No altar sua presença é imprescindível ao meu lado.
+
+						</p>
+				    </li>
+				    <li>
+						<img src="img/pem/ze.jpg" class="pem"/>
+						<p><span><b>Zé</b></span></p>
+						<p>
+						Tem a maior biblioteca particular de livros não lidos do Brasil. Intenso. Quando gosta de algo, repete insistentemente até enjoar. Estudioso, engajado e persuasivo.
+						Homem íntegro e justo, de um coração temoroso e inspirador. Sensível e de grande sabedoria, não dessas daqui, mas da que vem do alto. De forma alguma poderia deixar de me acompanhar em mais esse momento.
+
+						</p>
+				    </li>
+				    <li>
+						<img src="img/pem/lucio.jpg" class="pem"/>
+						<p><span><b>Cotta</b></span></p>
+						<p>
+						Cruzeirense fanático, atleta, maromba e jovial. Duvida de qualquer afirmação até que se prove o contrário. Homem de pequena estatura mas fé enorme. Extremamente integro, justo e inspirador. Muitos foram os conselhos, e agora no altar testemunhará de perto.
+						</p>
+				    </li>
+				    <li>
+						<img src="img/pem/padilha.jpg" class="pem"/>
+						<p><span><b>Padilha</b></span></p>
+						<p>
+						Bicho-grilo por natureza, percussionista por insistência, casamenteiro sem opção e filósofo do cotidiano. Simples de tudo. Amoroso a todo tempo. Coração temente e entregue. Inspiração como irmão mais velho, pai e marido. Deveria fazer o caminho ao altar duas vezes. Como quem celebra e como quem me acompanha.
+						</p>
+				    </li>
+				  </ul>
+				</div>
+			</div>
+		</div>
+		<div id="local" class="sectionContent">
+			<img src="img/digitais.png" class="digitais digitaisH">
+			<h1>local da festa</h1>
+			<p></p>
+			<div class="textContent">
+				<p><b>Chácara Ribeirão Vermelho</b><br />
+				Rua do Canal, nº 4, Cipó
+				Embu-Guaçu, SP
+				</p>
+				<p>Coordenadas para o gps:<br />
+					<span><b>-23.903228, -46.803855</b></span>
+				</p>
+				<p><b>obs:</b> o aplicativo Waze encontra corretamente o caminho<br />(pelo endereço e pelas coordenadas)
+				</p>
+			</div>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14590.029886938195!2d-46.8050995!3d-23.9070778!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDU0JzExLjYiUyA0NsKwNDgnMTMuOSJX!5e0!3m2!1spt-BR!2sbr!4v1414023794172" width="80%" height="450" frameborder="0" style="margin-top:20px"></iframe>
+		</div>
+
+		<div id="listadepresentes" class="sectionContent presentContentAction">
+			<img src="img/digitais.png" class="digitais digitaisH">
+			<h1>lista de presentes</h1>
+			<p></p>
+			<div class="textContent">
+				<p>Sua presença é o nosso melhor presente.<br />Para quem quiser oferecer algo mais, aqui estão algumas sugestões.<br />
+				</p>
+			</div>
+			<div class="galeriaFotos">
+			<div class="galeriaFotosEach">
+				<a href="" class="openLayer">
+				<img src="img/presentes/14.jpg">
+				<div class="galeriaFotosEachCaption"><span>almoço no forno à lenha
+em Paraty</span><br /><b>R$ 50,00</b></div>
+				</a>
+			</div>
+			<div class="galeriaFotosEach">
+				<a href="" class="openLayer">
+				<img src="img/presentes/18.jpg">
+				<div class="galeriaFotosEachCaption"><span>passeio turístico de
+escuna em Paraty</span><br /><b>R$ 80,00</b></div>
+				</a>
+			</div>
+			<div class="galeriaFotosEach noMargin">
+				<a href="" class="openLayer">
+				<img src="img/presentes/8.jpg">
+				<div class="galeriaFotosEachCaption"><span>descanso especial em Paraty</span><br /><b>R$ 100,00</b></div>
+				</a>
+			</div>
+			</div>
+			<div class="galeriaFotos">
+				<div class="galeriaFotosEach">
+					<a href="" class="openLayer">
+					<img src="img/presentes/2.jpg">
+					<div class="galeriaFotosEachCaption"><span>café-da-manhã na varanda em Paraty</span><br /><b>R$ 120,00</b></div>
+					</a>
+				</div>
+				<div class="galeriaFotosEach">
+					<a href="" class="openLayer">
+					<img src="img/presentes/13.jpg">
+					<div class="galeriaFotosEachCaption"><span>passeio com guia turístico em Paraty</span><br /><b>R$ 150,00</b></div>
+					</a>
+				</div>
+				<div class="galeriaFotosEach noMargin">
+					<a href="" class="openLayer">
+					<img src="img/presentes/5.jpg">
+					<div class="galeriaFotosEachCaption"><span>banho em ofurô em Paraty</span><br /><b>R$ 180,00</b></div>
+					</a>
+				</div>
+			</div>
+			<div class="galeriaFotos">
+				<div class="galeriaFotosEach">
+					<a href="" class="openLayer">
+					<img src="img/presentes/11.jpg">
+					<div class="galeriaFotosEachCaption"><span>passeio de carroça em Paraty</span><br /><b>R$ 200,00</b></div>
+					</a>
+				</div>
+				<div class="galeriaFotosEach">
+					<a href="" class="openLayer">
+					<img src="img/presentes/9.jpg">
+					<div class="galeriaFotosEachCaption"><span>jantar romântico em Paraty</span><br /><b>R$ 300,00</b></div>
+					</a>
+				</div>
+				<div class="galeriaFotosEach noMargin">
+					<a href="" class="openLayer">
+					<img src="img/presentes/6.jpg">
+					<div class="galeriaFotosEachCaption"><span>diária de hotel em Paraty</span><br /><b>R$ 500,00</b></div>
+					</a>
+				</div>
+			</div>
+			<div class="galeriaFotos">
+				<div class="galeriaFotosEach">
+					<a href="" class="openLayer">
+					<img src="img/presentes/17.jpg">
+					<div class="galeriaFotosEachCaption"><span>jantar no barco em Paraty</span><br /><b>R$ 600,00</b></div>
+					</a>
+				</div>
+				<div class="galeriaFotosEach">
+					<a href="" class="openLayer">
+					<img src="img/presentes/1.jpg">
+					<div class="galeriaFotosEachCaption"><span>passeio com golfinhos em Paraty</span><br /><b>R$ 800,00</b></div>
+					</a>
+				</div>
+				<div class="galeriaFotosEach noMargin">
+					<a href="" class="openLayer">
+					<img src="img/presentes/3.jpg">
+					<div class="galeriaFotosEachCaption"><span>diária de bangalô em Paraty</span><br /><b>R$ 1.000,00</b></div>
+					</a>
+				</div>
+			</div>
+			<div class="textContent">
+			<br />
+			<br />
+			Temos também listas nas seguintes lojas:<br />
+		</div>
+		<div class="galeriaFotos twoColumn">
+			<div class="galeriaFotosListasEach">
+				<a target="_blank" href="http://www.camicado.com.br/weddingListSearch.aspx">
+				<img src="img/presentes/lojas/camicado.jpg">
+				<div class="galeriaFotosEachCaption"><span>Camicado</span></div>
+				</a>
+			</div>
+			<div class="galeriaFotosListasEach noMargin">
+				<a target="_target" href="http://www.pontofrio.com.br/Site/ListaGerenciadaLandingPage.aspx?idListaCompra=394697">
+				<img src="img/presentes/lojas/pontofrio.jpg">
+				<div class="galeriaFotosEachCaption"><span>Ponto Frio</span></div>
+				</a>
+			</div>
+		</div>
+		
+		
+		<div class="layer">
+			<div class="layerContent">
+				<a href="" class="voltar_buton voltarAction" title="voltar">X</a>
+				<img class="imgLayerDisplay" src="">
+				<div class="layerCaption"><b>Titulo</b><br /><span>preço</span></div>
+				<div class="textContent">
+					pagamento via transferência bancária:<br />
+					<b>Carla Macedo Fernandes Marotti</b><br />
+					banco <b>Itaú</b><br />
+					agência: <b>3765</b><br />
+					conta corrente: <b>63754-5</b><br />
+					cpf: <b>388.873.798-23<br /><br /><br />
+				</div>
+				<a href="" class="button voltarAction">ok</a>
+
+			</div>
+		</div>
+		</div>
+
+		<div id="rsvp" class="sectionContent sectionContentLast">
+			<img src="img/digitais.png" class="digitais digitaisH">
+			<h1>confirmar presença</h1>
+			<p></p>
+			<div class="textContent">
+				Por favor, preencha os dados para confirmar sua presença.<br /><br />
+			</div>
+			<iframe src="https://docs.google.com/forms/d/1DSyNqgqxFWtUjJ6syxOpFqGzcPstKbWBDgxDFJZg__0/viewform?embedded=true" width="600" height="760" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+		</div>
+		
+	</div>
 </body>
 
 </html>
